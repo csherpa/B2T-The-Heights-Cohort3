@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>Hello World!!!</h1>
+		<h1 id="my">Welcome</h1>
+		<h1>Nice knowing you</h1>
+		<h1>Are you ready for this winter?</h1>
+		<h2 id="newtext"></h2>
+
+		<script type="text/javascript">
+			//list all the h1 elements in the webpage
+			var h1Elements = document.getElementsByTagName('h1');
+			console.log(h1Elements);
+
+			// gets element of specified id
+			var myElement = document.getElementById('my');
+			//changes the text on an element
+			myElement.innerHTML = 'Its Me';
+			//changes any color typed in the prompt 
+			myElement.style.color = prompt('Type color name')
+
+			//Display message in console
+			console.log('hello world');
+
+			document.getElementById('newtext').innerHTML = 'Are you excited for the holidays?';
+
+
+
+		</script>
+	</body>
+</html>
