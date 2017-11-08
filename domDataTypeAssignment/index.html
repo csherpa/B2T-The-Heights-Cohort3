@@ -15,14 +15,9 @@
 
 			//prompt () to display name at the console
 			var input = prompt("Type your name");
+			document.getElementById('first').innerHTML = 'Hello my name is ' + input;
 			console.log(input);
 
-			//takes element of specified id
-			var firstElement = document.getElementById('first');
-			//add text to the element
-			firstElement.innerHTML = 'Where are you from?';
-			//change color of element that is typed in prompt
-			firstElement.style.color = prompt('Your Favorite Color');
 		</script>
 	</body>
 </html>
