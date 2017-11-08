@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>HEY!!! What's up?</h1>
+		<h1>Tell me about you?</h1>
+		<h2 id="first"></h2>
+		<script type="text/javascript">
+			
+			//all h1 elements are displayed at the webpage and console
+			var h1Elements = document.getElementsByTagName("h1");
+			console.log(h1Elements);
+
+			//prompt () to display name at the console
+			var input = prompt("Type your name");
+			console.log(input);
+
+			//takes element of specified id
+			var firstElement = document.getElementById('first');
+			//add text to the element
+			firstElement.innerHTML = 'Where are you from?';
+			//change color of element that is typed in prompt
+			firstElement.style.color = prompt('Your Favorite Color');
+		</script>
+	</body>
+</html>
