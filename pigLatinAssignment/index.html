@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1 id="word"></h1>
+		<script type="text/javascript">
+			//word from user converted to pig latin and displayed in the webpage
+			var input = prompt("Type one word");
+			//get the html element with the id "word"
+			document.getElementById('word').innerHTML = 'PIG LATIN';
+			console.log('pig latin');
+			//charAt get character of specified index
+			//mixing data types using the addition symbol (+)
+			document.write( input.slice(1)+input.charAt(0) + 'ay' );
+			console.log(input);
+
+		</script>
+	</body>
+</html>
