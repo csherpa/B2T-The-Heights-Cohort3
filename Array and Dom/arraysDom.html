@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1 id="task"></h1>
+		<script type="text/javascript">
+			var input = prompt("Add more fruit");
+			var fruits = ["apple", "orange", "kiwi"];
+			//adds new elements in the fruits array
+			fruits.push(input);
+			//sorts the fruits alphabetically in the array 
+			fruits.sort();
+			//gets the element of a specific id and displayed in the webpage
+			document.getElementById('task').innerHTML = 'Fruits: ' + fruits.join(" with ");
+			//elements displayed at the console
+			console.log(fruits);
+		</script>
+	</body>
+</html>
