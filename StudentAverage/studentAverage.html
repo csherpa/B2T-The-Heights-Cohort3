@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+			var grade = ['80','77','88','95','68' ];
+			//displays the average of the student grades
+			var average = (( 80 + 77 + 88 +95 + 68)/5);
+			console.log(average);
+
+			//prints A if the average is higher or equal to 90
+			if(parseInt(average) >= 90){
+				console.log('A');
+
+			//prints B if the average is equal and higher to 80 and if it is lower and equal to 89
+			}else if(parseInt(average) >= 80 && average <= 89){
+				console.log('B');
+			//prints if the average is below 80	
+			}else {
+				console.log('C');
+			}
+		</script>
+	</body>
+</html>
