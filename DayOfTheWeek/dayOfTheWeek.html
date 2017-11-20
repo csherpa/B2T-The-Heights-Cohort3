@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		
+		<h1 id="first"></h1>
+		
+		<script type="text/javascript">
+			
+			//switch statement perform different actions based on different conditons.
+			switch(new Date().getDay()){
+				case 0: day = 'Sunday'
+					console.log('Sunday');
+					break;
+				case 1: day = 'Monday'
+					console.log('Monday');
+					break;
+				case 2: day = 'Tuesday'
+					console.log('Tuesday');
+					break;
+				case 3: day = 'Wednesday'
+					console.log('Wednesday');
+					break;
+				case 4: day = 'Thursday'
+					console.log('Thursday');
+					break;
+				case 5: day = 'Friday'
+					console.log('Friday');
+					break;	
+				case 6: day = 'Saturday'
+					console.log('Saturday');
+					break;	
+			}
+			//get html element with id 'first' and displays it in the webpage
+			document.getElementById('first').innerHTML = 'Have an Awesome ' + day;
+			
+		</script>
+	</body>
+</html>
