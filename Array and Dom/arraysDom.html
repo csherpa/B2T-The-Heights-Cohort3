@@ -9,9 +9,9 @@
 			var input = prompt("Add more fruit");
 			var fruits = ["apple", "orange", "kiwi"];
 			//adds user input at the end of fruits array
-			fruits.push(input);
+			fruits.push(input.toLowerCase());
 			//sorts the fruits alphabetically in the array 
-			fruits.sort();
+			fruits.sort();			
 			//gets the element of a specific id and displayed in the webpage
 			document.getElementById('task').innerHTML = 'Fruits: ' + fruits.join(" with ");
 			//elements displayed at the console
