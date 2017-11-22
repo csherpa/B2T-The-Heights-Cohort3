@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1 id="number"></h1>
+		<script type="text/javascript">
+			var index = 0;
+			while(index <= 15){
+				if(index%2==0){
+					console.log(index + ' is even'); 
+					document.getElementById('number').innerHTML += index + ' is Even <br>';
+				}else{
+					console.log(index + ' is odd');
+					document.getElementById('number').innerHTML += index + ' is Odd <br>';
+				}
+				index++;
+			
+		}
+		</script>
+	</body>
+</html>
