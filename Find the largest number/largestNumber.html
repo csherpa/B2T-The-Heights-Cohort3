@@ -6,16 +6,16 @@
 	<body>
 		<script type="text/javascript">
 			//inputs from the user
-			var input1 = prompt('Type a number');
-			var input2 = prompt('Type a number');
-			var input3 = prompt('Type a number');
+			var input1 = parseInt(prompt('Type a number'));
+			var input2 = parseInt(prompt('Type a number'));
+			var input3 = parseInt(prompt('Type a number'));
 			//inputs displayed in the console
 			console.log(input1, input2, input3);
 			//only prints input1 if it is greater than input2 and input3
-			if(parseInt(input1) > input2 && input1 > input3){
+			if(input1 > input2 && input1 > input3){
 				console.log(input1 + ' is the largest number');
 			//only prints input2 if it is greater than input1 and input3
-			}else if(parseInt(input2) > input1 && input2 > input3){
+			}else if(input2 > input1 && input2 > input3){
 				console.log(input2 + ' is the largest number');
 			//prints if both of input1 and input2 smaller than input3
 			}else{
