@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1 id="demo"></h1>
+		
+		<script type="text/javascript">
+			var array = [5, 2, 10, 0, 50, 1900, 25, 25];
+			var sum = 0;
+			//loops through the whole array
+			for(var i = 0; i < array.length; i++){
+				//also means sum = sum + array[i]
+				sum += array[i];
+			}
+			console.log(sum);
+			//gets element by ID 'demo' and displays in the webpage
+			document.getElementById("demo").innerHTML = 'The Sum of the Array is ' + sum;
+
+		</script>
+	</body>
+</html>

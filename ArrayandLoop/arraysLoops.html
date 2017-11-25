@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			var color =['Blue', 'Green', 'Red', 'Orange', 'Violet', 'Indigo', 'Yellow'];
+			for(var i = 0; i < color.length; i++){
+				console.log(color[i]);
+			}
+
+			var o =['st', 'nd', 'rd', 'th', 'th', 'th', 'th'];
+			for(var i = 0; i < color.length; i++){
+				if( i%o.length == 0 ){
+					console.log('1' + o[0] + ' choice is ' + color[i]);
+					document.write('1' + o[0] + ' choice is ' + color[i] + '<br>');
+				
+				}else if(i%o.length == 1){
+					console.log('2' + o[1] + ' choice is ' + color[i]);
+					document.write('2' + o[1] + ' choice is ' + color[i] + '<br>');
+				
+				}else if(i%o.length == 2){
+					console.log('3' + o[2] + ' choice is ' + color[i]);
+					document.write('3' + o[2] + ' choice is ' + color[i] + '<br>');
+				
+				}else if(i%o.length == 3){
+					console.log('4' + o[3] + ' choice is ' + color[i]);
+					document.write('4' + o[3] + ' choice is ' + color[i] + '<br>');
+				
+				}else if(i%o.length == 4){
+					console.log('5' + o[4] + ' choice is ' + color[i]);
+					document.write('5' + o[4] + ' choice is ' + color[i] + '<br>');
+				
+				}else if(i%o.length == 5){
+					console.log('6' + o[5] + ' choice is ' + color[i]);
+					document.write('6' + o[5] + ' choice is ' + color[i] + '<br>');
+				
+				}else{
+					console.log('7' + o[6] + ' choice is ' + color[i]);
+					document.write('7' + o[6] + ' choice is ' + color[i] + '<br>');
+				}				
+			}
+
+
+				
+		</script>
+	</body>
+</html>
