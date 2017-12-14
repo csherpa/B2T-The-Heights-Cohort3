@@ -4,7 +4,11 @@
 		<title></title>
 	</head>
 	<body>
-		<table border="2">
+		<table id="first" border="2">
+			<tr>
+				<td>First Name</td>
+				<td>Last Name</td>
+			</tr>
 			<tr >
 				<td>Clifford</td>
 				<td>Harris</td>				
@@ -17,7 +21,7 @@
 		Column 2 <input type="text" name="lname" id="col2" value="Jackson"><br>
 
 		<input type="button" onclick="insertRow()" value="InsertRow" >
-
+		<input type="button" onclick="deleteRow()" value="DeleteRow">
 		
 		
 		<script type="text/javascript">
@@ -37,6 +41,9 @@
 				cell2.innerHTML = Column2;
 				
 				console.log(Column1, Column2);
+			}
+			function deleteRow(){
+				document.getElementById('first').deleteRow(1);
 			}
 		</script>
 
